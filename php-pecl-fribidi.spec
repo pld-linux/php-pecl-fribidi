@@ -24,14 +24,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A PHP frontend to the FriBidi library: an implemntation of the unicode
 Bidi algorithm, provides means of handling right-to-left text.
 
-This extension has in PEAR status: %{_status}.
+In PECL status of this package is: %{_status}.
 
 %description -l pl
 Frontend PHP do biblioteki FriBidi: implementacji algorytmu unicode
 Bidi, dostarczaj±cego ¶rodki do obs³ugi tekstu pisanego od prawej do
 lewej.
 
-To rozszerzenie ma w PEAR status: %{_status}.
+To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
