@@ -4,7 +4,7 @@ Summary:	%{_modname} - Implementation of the Unicode BiDi algorithm
 Summary(pl):	%{_modname} - Implementacja algorytmu BiDi Unicode
 Name:		php-pecl-%{_modname}
 Version:	1.0
-Release:	1
+Release:	2
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
@@ -12,8 +12,9 @@ Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 URL:		http://pecl.php.net/package/fribidi/
 BuildRequires:	fribidi-devel
 BuildRequires:	libtool
-BuildRequires:	php-devel
-Requires:	php-common
+BuildRequires:	php-devel >= 3:5.0.0
+Requires:	php-common >= 3:5.0.0
+Obsoletes:	php-fribidi
 Obsoletes:	php-pear-%{_modname}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
