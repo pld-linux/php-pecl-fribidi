@@ -1,5 +1,3 @@
-# ToDo:
-# - pl description screams 'FIX ME!' :)
 %define		_modname	fribidi
 %define		_status		stable
 Summary:	%{_modname} - Implementation of the Unicode BiDi algorithm
@@ -29,8 +27,9 @@ Bidi algorithm, provides means of handling right-to-left text.
 This extension has in PEAR status: %{_status}.
 
 %description -l pl
-Frontend PHP do biblioteki FriBidi: implemntacji algorytmu unicode Bidi,
-dostarczaj±cego ¶rodki do obs³ugi tekstu right-to-left.
+Frontend PHP do biblioteki FriBidi: implementacji algorytmu unicode
+Bidi, dostarczaj±cego ¶rodki do obs³ugi tekstu pisanego od prawej do
+lewej.
 
 To rozszerzenie ma w PEAR status: %{_status}.
 
