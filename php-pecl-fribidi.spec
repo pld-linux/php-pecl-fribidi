@@ -9,7 +9,7 @@ License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	360e55f049cdebc96fe797eba78399ef
-URL:		http://pear.php.net/package/%{_pearname}/
+URL:		http://pear.php.net/package/fribidi/
 BuildRequires:	fribidi-devel
 BuildRequires:	libtool
 BuildRequires:	php-devel
