@@ -11,7 +11,6 @@ Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	360e55f049cdebc96fe797eba78399ef
 URL:		http://pecl.php.net/package/fribidi/
 BuildRequires:	fribidi-devel
-BuildRequires:	libtool
 BuildRequires:	php-devel >= 3:5.0.0
 Requires:	php-common >= 3:5.0.0
 Obsoletes:	php-fribidi
