@@ -7,7 +7,7 @@ Summary:	%{_modname} - Implementation of the Unicode BiDi algorithm
 Summary(pl):	%{_modname} - Implementacja algorytmu BiDi Unicode
 Name:		php-pecl-%{_modname}
 Version:	1.0
-Release:	2.1
+Release:	3
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
