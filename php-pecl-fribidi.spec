@@ -1,7 +1,7 @@
 %define		_modname	fribidi
 %define		_status		stable
 Summary:	%{_modname} - Implementation of the Unicode BiDi algorithm
-Summary(pl):	%{_modname} - Implementacja algorytmu BiDi Unicode
+Summary(pl.UTF-8):   %{_modname} - Implementacja algorytmu BiDi Unicode
 Name:		php-pecl-%{_modname}
 Version:	1.0
 Release:	7
@@ -25,9 +25,9 @@ Bidi algorithm, provides means of handling right-to-left text.
 
 In PECL status of this package is: %{_status}.
 
-%description -l pl
+%description -l pl.UTF-8
 Frontend PHP do biblioteki FriBidi: implementacji algorytmu unicode
-Bidi, dostarczaj±cego ¶rodki do obs³ugi tekstu pisanego od prawej do
+Bidi, dostarczajÄ…cego Å›rodki do obsÅ‚ugi tekstu pisanego od prawej do
 lewej.
 
 To rozszerzenie ma w PECL status: %{_status}.
