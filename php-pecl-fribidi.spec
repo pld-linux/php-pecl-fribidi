@@ -1,7 +1,7 @@
 %define		_modname	fribidi
 %define		_status		stable
 Summary:	%{_modname} - Implementation of the Unicode BiDi algorithm
-Summary(pl.UTF-8):   %{_modname} - Implementacja algorytmu BiDi Unicode
+Summary(pl.UTF-8):	%{_modname} - Implementacja algorytmu BiDi Unicode
 Name:		php-pecl-%{_modname}
 Version:	1.0
 Release:	7
