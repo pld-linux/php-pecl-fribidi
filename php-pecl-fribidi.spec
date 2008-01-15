@@ -11,7 +11,7 @@ Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	360e55f049cdebc96fe797eba78399ef
 Patch0:		%{name}-new_fribidi.patch
 URL:		http://pecl.php.net/package/fribidi/
-BuildRequires:	fribidi-devel
+BuildRequires:	fribidi-devel >= 0.10.9
 BuildRequires:	php-devel >= 3:5.0.0
 BuildRequires:	rpmbuild(macros) >= 1.344
 %{?requires_php_extension}
